@@ -1,0 +1,398 @@
+This repo has been recreated due to error:
+Repository size exceeds limit
+This repository is over the 4 GB limit and your contributors are not able to push new commits. To resolve this, reduce the repository size.
+Learn more
+
+I was not able to reset the commit to previous version.
+
+The repo history has been lost, so here is a log of it:
+
+Matthew Coulter
+928966e
+Trains are following path and renderer with correct rotation
+2 days ago	
+Matthew Coulter
+bd15819
+Can create multiple routes now
+2 days ago	
+Matthew Coulter
+2adfca7
+Route path shaping working
+2 days ago	
+Matthew Coulter
+3cb8c8c
+Fixed some linker issues
+2 days ago	
+Matthew Coulter
+f55d941
+Created Unity-style input manager
+2 days ago	
+Matthew Coulter
+e9f2d5e
+Finished task 14
+2021-10-21	
+Matthew Coulter
+63dce36
+Finished task 14
+2021-10-21	
+Matthew Coulter
+ad87109
+Submitted task 18
+2021-10-21	
+Matthew Coulter
+8190d63
+Finished task 18
+2021-10-21	
+Matthew Coulter
+2878d09
+Started working on control mapping
+2021-10-20	
+Matthew Coulter
+7243286
+Added window collider to ecs version
+2021-10-20	
+Matthew Coulter
+18dbef5
+Fixed push error
+2021-10-20	
+Matthew Coulter
+d6a6fbf
+Created OOP build
+2021-10-20	
+Matthew Coulter
+0b1bb1e
+Captured ECS result
+2021-10-20	
+Matthew Coulter
+61f61e1
+Add fps counter
+2021-10-20	
+Matthew Coulter
+fb7dcbd
+Box collider is working
+2021-10-18	
+Matthew Coulter
+a186b36
+Started task 25
+2021-10-18	
+Matthew Coulter
+d67429e
+Submitted task 24
+2021-10-18	
+Matthew Coulter
+8203dc1
+Working on SAT
+2021-10-18	
+Matthew Coulter
+5282af6
+Fixed collisions with circles
+2021-10-14	
+Matthew Coulter
+4b8c4f8
+GJK is working
+2021-10-14	
+Matthew Coulter
+34dd8b7
+Implementing GJK
+2021-10-14	
+Matthew Coulter
+079d3fc
+Polygon Collision is working
+2021-10-14	
+Matthew Coulter
+2993a6b
+Fixed LNK2019 errors
+2021-10-14	
+Matthew Coulter
+eaf4d44
+Polygon rendering is working
+2021-10-13
+
+Matthew Coulter
+87bff29
+Aded polygon collider
+2021-10-13	
+Matthew Coulter
+46c89ab
+Added collision history checking
+2021-10-13	
+Matthew Coulter
+acad217
+Bug fix with circle rectangle collision
+2021-10-13	
+Matthew Coulter
+6b4459d
+Collision System is working, need to implement the resolution
+2021-10-13	
+Matthew Coulter
+894c9ac
+Updates
+2021-10-12	
+Matthew Coulter
+cf1f9ae
+Finished ECS Task
+2021-10-12	
+Matthew Coulter
+a2db54c
+Updated ECS Files, fixing final issue
+2021-10-11	
+Matthew Coulter
+33b1e6d
+Working on ECS Implementation
+2021-09-30	
+Matthew Coulter
+542b9d2
+Started task 20
+2021-09-30	
+Matthew Coulter
+9d34908
+Finished task 19
+2021-09-30	
+Matthew Coulter
+89119f9
+Finished task 19
+2021-09-30	
+Matthew Coulter
+e3d778d
+Example 3 done
+2021-09-30	
+Matthew Coulter
+a27bc1e
+Started task 19
+2021-09-30	
+Matthew Coulter
+935682e
+finished task 17
+2021-09-30	
+Matthew Coulter
+cf12b36
+Finished task 17
+2021-09-30	
+Matthew Coulter
+deef86d
+background is rendering now
+2021-09-30	
+Matthew Coulter
+f525455
+Started task 17
+2021-09-29	
+Matthew Coulter
+336a42d
+Finished task 16
+2021-09-29	
+Matthew Coulter
+e2b9a77
+Finished task 16
+2021-09-29	
+Matthew Coulter
+cadc0cc
+FInished task 16
+2021-09-29	
+Matthew Coulter
+7685e31
+Starting task 16
+2021-09-29	
+Matthew Coulter
+67eac09
+Finished task 15
+2021-09-29	
+Matthew Coulter
+04e4ab5
+Finished task 15
+2021-09-29	
+Matthew Coulter
+5c19e04
+SDL is working
+2021-09-29	
+Matthew Coulter
+2a758b1
+Submitted Task 13
+2021-09-09
+Matthew Coulter
+c5defc0
+Pickup and Drop commands working with entity and component yay!
+2021-09-09	
+Matthew Coulter
+d7af120
+Entity and Component files added
+2021-09-08	
+Matt Coulter
+3d69ede
+Added Quit Command
+2021-08-25	
+Matt Coulter
+3187655
+Finished Look Command
+2021-08-25	
+Matt Coulter
+77d3cc0
+Fixed issue with memory
+2021-08-25	
+Matt Coulter
+e4b1854
+Working on Task 12
+2021-08-25	
+Matt Coulter
+f8905df
+Created the command classes
+2021-08-23	
+Matt Coulter
+f26d211
+Started Task 12
+2021-08-23	
+Matt Coulter
+75b9ae7
+Finished Task 11
+2021-08-23	
+Matt Coulter
+6de1775
+Moving around locations works now
+2021-08-21	
+Matt Coulter
+bdd6f6f
+Successfully reading a file
+2021-08-21	
+Matt Coulter
+74f129a
+Started Task 11
+2021-08-21	
+Matt Coulter
+07b75f8
+Updated Threading Task from feedback
+2021-08-21	
+Matt Coulter
+09c4d83
+Finished Part C
+2021-08-18	
+Matt Coulter
+6502554
+Finished Part B
+2021-08-18	
+Matt Coulter
+d9f7435
+succesfully reading lines of a text file
+2021-08-18	
+Matt Coulter
+5120f1e
+Successfully reading the file
+2021-08-18	
+Matt Coulter
+c83d7a0
+Successfully written to binary file
+2021-08-18	
+Matt Coulter
+df94d30
+Created Person Class
+2021-08-16	
+Matt Coulter
+fc8a861
+Placed files for task 9 in the correct folder (oops)
+2021-08-16	
+Matt Coulter
+168a125
+Implemented Inventory Design and Items
+2021-08-16	
+Matt Coulter
+efa5b58
+Updates to consistent naming
+2021-08-16	
+Matt Coulter
+6a1bbcb
+Refactored object based states, instead of enum as required
+2021-08-15	
+Matt Coulter
+c133387
+awd
+2021-08-12	
+Matt Coulter
+23fcaf2
+Changed to Visual Studio and used proper game state with game loop
+2021-08-11
+Matt Coulter
+5d8eebc
+Fixed case sensitivity
+2021-08-11	
+Matt Coulter
+23ae169
+Added level start to finalise spec 1
+2021-08-11	
+Matt Coulter
+91a4aa4
+Main Menu Flow is working
+2021-08-11	
+Matt Coulter
+69a0b14
+Update main.cpp
+2021-08-09	
+Matt Coulter
+a557962
+Trying to figure out how to use multi threading in a game loop
+2021-08-09	
+Matt Coulter
+d6f86b1
+Completed Task 7
+2021-08-09	
+Matt Coulter
+7acff5d
+Created Header for StopWatch for usage in task 7
+2021-08-09	
+Matt Coulter
+8896554
+Finished Task 6
+2021-08-07	
+mattcoulter711
+0d81c00
+Update task05_struct_ptrs_c_arrays.cpp
+2021-08-05	
+mattcoulter711
+74ea262
+No changes yet
+2021-08-05	
+mattcoulter711
+a3dffa2
+Have working start on game loop version
+2021-08-05	
+mattcoulter711
+533801e
+Refactored into Map class for better readability and sensibility
+2021-08-04	
+mattcoulter711
+9d9edec
+Working Game for Task 3
+2021-08-04	
+mattcoulter711
+99420f1
+Used header file for class
+2021-08-04	
+Matt Coulter
+0d57ada
+Update release-notes.md
+2021-08-02	
+Matt Coulter
+fd5b221
+Create report.pdf
+2021-08-02	
+Matt Coulter
+7a4d641
+Completed Doubtfire Task 2
+2021-08-02	
+Matt Coulter
+5792904
+Update README.md
+2021-08-02	
+Matt Coulter
+c98e2ce
+Create release-notes.md
+2021-08-02	
+Matt Coulter
+ce6d3e7
+Update README.md
+2021-08-02	
+Matthew Coulter
+874929d
+Added course files
+2021-08-02	
+Matthew Coulter
+45b04be
+Initial commit
+2021-08-02

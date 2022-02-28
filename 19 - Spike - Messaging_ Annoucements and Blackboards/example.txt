@@ -1,0 +1,26 @@
+player1 -> PostOffice
+	Message1: {
+		source: player1.id
+		destination: player2.id
+		type: MessageType::Attack
+		data: "20"
+		priority: MessagePriority::High
+	}
+	PostOffice->Send(Message1);
+PostOffice -> Player2
+	Player2->inbox.push_back(Message1);
+Player2
+	Update();
+	ProcessInbox();
+Player2 -> PostOffice
+	Message2: {
+		source: player2.id
+		destination: player1.id
+		type: MessageType::RemainingHealth
+		data: "80"
+		priority: MessagePriority::MEDIUM
+	}
+	PostOffice->Reply(Message1,Message2);
+PostOffice -> Player1
+	Player1->inbox.push_back(Message1);
+	

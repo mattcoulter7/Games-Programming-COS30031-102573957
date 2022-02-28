@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\ECS">
+      <UniqueIdentifier>{d9d8dd4e-b5a2-427a-b6aa-0c224d37ecb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ECS\Systems">
+      <UniqueIdentifier>{f75dcf83-ce2c-4229-b8f8-729334ce1e93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ECS\Entities">
+      <UniqueIdentifier>{81f9289c-45a8-43df-89bf-5986b6489dc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ECS\Components">
+      <UniqueIdentifier>{da8e5f07-c289-49fa-a3b8-9dd951866a53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ECS">
+      <UniqueIdentifier>{2f65feb7-a9ef-4a81-ac8e-8877651a0316}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ECS\Entities">
+      <UniqueIdentifier>{2de8687f-ebd5-4f70-9c9f-3816d6d37d71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ECS\Systems">
+      <UniqueIdentifier>{b985807b-389b-4ee8-9c2e-08c2e05fbf56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ECS\Components">
+      <UniqueIdentifier>{a8180264-ff85-462f-bafc-4fdd27cab265}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Debug">
+      <UniqueIdentifier>{4fc53b4f-15e3-4beb-9060-ff900f6e0a75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Debug">
+      <UniqueIdentifier>{548384a1-d058-4229-8c58-98bb5b54d803}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Managers">
+      <UniqueIdentifier>{05ef8d6d-02f9-41d9-86bd-6740585c7a06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Math">
+      <UniqueIdentifier>{1349b20b-e12c-458f-9896-0cc05cba729c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ECS\Systems\Collisions">
+      <UniqueIdentifier>{7a6dbc57-5eaa-4242-92cd-8060c409eb0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ECS\Systems\Collisions">
+      <UniqueIdentifier>{7ff893cb-ff74-45f0-a79f-2f6b21849a1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ECS\Systems\Collisions\Algorithms">
+      <UniqueIdentifier>{8b388b5f-d7c4-4146-a8bf-be9f73129963}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ECS\Systems\Collisions\Algorithms">
+      <UniqueIdentifier>{0387fc7f-f917-4858-9ec1-3f7692ad60cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ECS\Components\Colliders">
+      <UniqueIdentifier>{b40b282f-72ee-4211-9fd1-d6d65c89161e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ECS\Components\Colliders">
+      <UniqueIdentifier>{49c5fc08-bce7-4992-aaa1-d8ded01edf95}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Render2DSystem.cpp">
+      <Filter>Source Files\ECS\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsSystem.cpp">
+      <Filter>Source Files\ECS\Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Source Files\ECS\Entities</Filter>
+    </ClCompile>
+    <ClCompile Include="ECS.cpp">
+      <Filter>Source Files\ECS</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseComponent.cpp">
+      <Filter>Source Files\ECS\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug.cpp">
+      <Filter>Source Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="ComponentManager.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityManager.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemManager.cpp">
+      <Filter>Source Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Collider2DSystem.h">
+      <Filter>Header Files\ECS\Systems\Collisions</Filter>
+    </ClCompile>
+    <ClCompile Include="Collider2DSystem.cpp">
+      <Filter>Source Files\ECS\Systems\Collisions</Filter>
+    </ClCompile>
+    <ClCompile Include="Collider2DTransformer.cpp">
+      <Filter>Source Files\ECS\Systems\Collisions</Filter>
+    </ClCompile>
+    <ClCompile Include="GJK.cpp">
+      <Filter>Source Files\ECS\Systems\Collisions\Algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="CircleCollider.cpp">
+      <Filter>Source Files\ECS\Components\Colliders</Filter>
+    </ClCompile>
+    <ClCompile Include="PolygonCollider.cpp">
+      <Filter>Source Files\ECS\Components\Colliders</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BaseComponent.h">
+      <Filter>Header Files\ECS\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteRenderer2D.h">
+      <Filter>Header Files\ECS\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform2D.h">
+      <Filter>Header Files\ECS\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="System.h">
+      <Filter>Header Files\ECS\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsSystem.h">
+      <Filter>Header Files\ECS\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="RigidBody2D.h">
+      <Filter>Header Files\ECS\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Render2DSystem.h">
+      <Filter>Header Files\ECS\Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Header Files\ECS\Entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2.h">
+      <Filter>Header Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="ECS.h">
+      <Filter>Header Files\ECS</Filter>
+    </ClInclude>
+    <ClInclude Include="Debug.h">
+      <Filter>Header Files\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="Collider2DTransformer.h">
+      <Filter>Header Files\ECS\Systems\Collisions</Filter>
+    </ClInclude>
+    <ClInclude Include="CircleCollider.h">
+      <Filter>Header Files\ECS\Components\Colliders</Filter>
+    </ClInclude>
+    <ClInclude Include="Collider2D.h">
+      <Filter>Header Files\ECS\Components\Colliders</Filter>
+    </ClInclude>
+    <ClInclude Include="PolygonCollider.h">
+      <Filter>Header Files\ECS\Components\Colliders</Filter>
+    </ClInclude>
+    <ClInclude Include="RectangleCollider.h">
+      <Filter>Header Files\ECS\Components\Colliders</Filter>
+    </ClInclude>
+    <ClInclude Include="GJK.h">
+      <Filter>Header Files\ECS\Systems\Collisions\Algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="MinkowskiSum.h">
+      <Filter>Header Files\ECS\Systems\Collisions\Algorithms</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

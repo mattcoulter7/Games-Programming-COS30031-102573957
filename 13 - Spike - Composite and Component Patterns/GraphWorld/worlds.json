@@ -1,0 +1,72 @@
+[
+  {
+    "id": 0,
+    "Name": "Test World 1",
+    "Description": "Basic locations and paths...",
+    "StartLocation": 0,
+    "Locations": [
+      {
+        "id": 0,
+        "Name": "a field",
+        "Description": "standing at home sweet home.",
+        "Directions": {
+          "u": 1,
+          "s": 3
+        },
+        "Entities": [
+          {
+            "Type": 0,
+            "Children": [
+              {
+                "Type": 1,
+                "Children": [],
+                "Components": [
+                  {
+                    "Type": 0
+                  },
+                  {
+                    "Type": 1
+                  }
+                ]
+              }
+            ],
+            "Components": [
+              {
+                "Type": 0
+              },
+              {
+                "Type": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 1,
+        "Name": "a tree",
+        "Description": "up a tree for a nice view. Quite a nice view really.",
+        "Directions": {
+          "d": 0
+        },
+        "Entities": []
+      },
+      {
+        "id": 3,
+        "Name": "a ponds edge",
+        "Description": "next to a medium sized pond.",
+        "Directions": {
+          "n": 0,
+          "e": 5
+        }
+      },
+      {
+        "id": 5,
+        "Name": "a wall",
+        "Description": "standing next to a tall brick wall.",
+        "Directions": {
+          "w": 3
+        }
+      }
+    ]
+  }
+]

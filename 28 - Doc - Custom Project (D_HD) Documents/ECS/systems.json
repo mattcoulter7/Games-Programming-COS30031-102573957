@@ -1,0 +1,35 @@
+[
+  {
+    "_type": "Render2DSystem"
+  },
+  {
+    "_type": "PhysicsSystem"
+  },
+  {
+    "_type": "Collider2DSystem"
+  },
+  {
+    "_type": "RouteCreatorSystem",
+    "routePrefabId": 2,
+    "trainPrefabId": 3
+  },
+  {
+    "_type": "TrainSystem"
+  },
+  {
+    "_type": "CursorSystem"
+  },
+  {
+    "_type": "PersonSpawnerSystem"
+  },
+  {
+    "_type": "PersonPickupDropoffSystem"
+  },
+  {
+    "_type": "PersonRenderSystem"
+  },
+  {
+    "_type": "TrainStationSpawnerSystem",
+    "trainStationSpawnerPrefabId": 5
+  }
+]

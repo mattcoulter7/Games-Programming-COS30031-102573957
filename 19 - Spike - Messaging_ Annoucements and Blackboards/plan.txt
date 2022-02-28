@@ -1,0 +1,43 @@
+enum class MessageType {
+	
+}
+
+enum class MessagePriority {
+	HIGH,
+	MEDIUM,
+	LOW,
+	SPAM
+}
+
+Message {
+	source: string
+	destination: string
+	type: MessageType
+	data: string
+	priority: MessagePriority
+	lastMessage: Message* // message that was responded to
+}
+
+// treat it like an email system
+PostOffice {
+	public:
+		Forward(Message* msg,string recipientid){
+			
+		}
+		Send(Message* msg){
+			// lookup who it is being sent to
+			// add the message to their inbox
+		}
+		Reply(Message* receivedMsg, Message* responseMsg) {
+		
+		}
+}
+
+typedef List<Message> MessageBank
+entity {
+	MessageBank inbox // PostOffice
+	MessageBank outbox
+	ProcessInbox(){
+		// loop through inbox
+	}
+}

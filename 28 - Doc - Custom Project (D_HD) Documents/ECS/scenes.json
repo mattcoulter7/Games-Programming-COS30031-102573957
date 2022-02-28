@@ -1,0 +1,65 @@
+{
+  "Gameplay": {
+    "entities": [
+      {
+        "name": "Cursor",
+        "prefabid": 0,
+        "_components": [
+          {
+            "prefabcomponentid": 1,
+            "position": {
+              "x": 50
+            }
+          }
+        ]
+      },
+      {
+        "name": "Route Manager",
+        "prefabid": 2
+      },
+      {
+        "name": "Train Station 1",
+        "prefabid": 1,
+        "_components": [
+          {
+            "prefabcomponentid": 0,
+            "position": {
+              "x": 100,
+              "y": 100
+            }
+          }
+        ]
+      },
+      {
+        "name": "Train Station 2",
+        "prefabid": 9,
+        "_components": [
+          {
+            "prefabcomponentid": 0,
+            "position": {
+              "x": 300,
+              "y": 500
+            }
+          }
+        ]
+      },
+      {
+        "name": "Train Station 3",
+        "prefabid": 10,
+        "_components": [
+          {
+            "prefabcomponentid": 0,
+            "position": {
+              "x": 400,
+              "y": 200
+            }
+          }
+        ]
+      },
+      {
+        "name": "Train Station Spawner",
+        "prefabid": 5
+      }
+    ]
+  }
+}
